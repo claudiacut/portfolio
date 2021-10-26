@@ -176,8 +176,49 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   background: #000;
 }
 
+.img-grid {
+  max-width: 32% !important;
+height: auto;
+padding: 8px !important;
+}
+
+.img-grid2 {
+  max-width: 49% !important;
+height: auto;
+padding: 8px !important;
+}
+
 .designers {
   font-size: 0.5rem;
+}
+
+.grid1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.grid2 {
+  flex: 20%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.grid2 img{
+  margin-top: 8px;
+vertical-align: middle;
+width: 100%;
+}
+
+.size {
+
+  max-width: 25%;
+
+}
+
+.size img{
+  margin-top: 8px;
+
 }
 
 .testimonials-slider .swiper-pagination {
