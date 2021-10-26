@@ -157,6 +157,10 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   font-size: 28px;
 }
 
+.home {
+  max-width: 10%;
+}
+
 .readmore {
   display: inline-block;
   border: 1px solid #000;
