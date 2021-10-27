@@ -225,6 +225,33 @@ width: 100%;
 
 }
 
+.rectangle {
+width: 30%;
+/* background-color: grey; */
+background-image: url(assets/img/y2.png);
+padding: 50px;
+margin: 20px;
+}
+
+.rectangle span {
+  align-items: center;
+}
+
+.rectangle p {
+  align-items: center;
+}
+
+.txt-title {
+  justify-content: center;
+  font-family: 'Raleway';
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.colorbg {
+  background-color: black;
+}
+
 .testimonials-slider .swiper-pagination {
   margin-top: -60px;
   position: relative;
