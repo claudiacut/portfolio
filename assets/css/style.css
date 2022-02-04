@@ -8,6 +8,20 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'Le Murmure';
+    src: url('assets/css/LeMurmure-Regular.eot');
+    src: url('assets/css/LeMurmure-Regular.eot?#iefix') format('embedded-opentype'),
+        url('assets/css/LeMurmure-Regular.woff2') format('woff2'),
+        url('assets/css/LeMurmure-Regular.woff') format('woff'),
+        url('assets/css/LeMurmure-Regular.ttf') format('truetype'),
+        url('assets/css/LeMurmure-Regular.svg#LeMurmure-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
   font-family: "Inconsolata", monospace;
   color: #0d1e2d;
@@ -23,7 +37,11 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6, .font-heading {
-  font-family: "Raleway", sans-serif;
+  font-family: "Le Murmure", sans-serif;
+}
+
+.white-txt {
+  color: white !important;
 }
 
 .section {
